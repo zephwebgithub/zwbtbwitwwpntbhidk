@@ -1,0 +1,29 @@
+svg {
+    width: 189.6px;
+    height: 360.8px;
+}
+
+@font-face {
+    font-family: 'pirulen';
+    src: url('pirulen-webfont.woff2') format('woff2'),
+        url('pirulen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.contentcent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+p {
+    font-family: pirulen;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
