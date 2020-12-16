@@ -1,0 +1,15 @@
+.fab {
+    margin: 10px;
+}
+
+@font-face {
+    font-family: 'pirulen';
+    src: url('pirulen-webfont.woff2') format('woff2'),
+        url('pirulen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}    
+
+.nav-item {
+    font-family: pirulen;
+}
