@@ -10,6 +10,80 @@
     font-style: normal;
 }    
 
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 .nav-item {
     font-family: pirulen;
 }
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+  }
+  .font {
+    font-family: 'Anonymous Pro', monospace;
+  }
+  
+  .typewriter-text {
+    overflow: hidden;
+    position: relative;
+    font-family: "Anonymous Pro", sans-serif;
+    width: 15.8em;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 38px;
+    white-space: nowrap;
+  
+    animation: typewriter 5s steps(44) infinite normal both,
+    blinkTextCursor 400ms steps(44) infinite normal;
+  
+  }
+  
+  /*
+  
+    animation-name: typewriter;
+    animation-duration: 4s;
+    animation-timing-function: steps(44);
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+  
+  */
+  
+  
+  @keyframes typewriter {
+   0% {
+      width: 0;
+   }
+   50% {
+       width: 16em;
+   }
+   100% {
+       width: 16em;
+   }
+    /* from {
+      width: 0;
+    }
+  
+    to {
+      width: 15.84em;
+    } */
+  }
+  
+  @keyframes blinkTextCursor {
+  
+    from {
+      border-right-color: rgb(0, 0, 0);
+    }
+  
+    to {
+      border-right-color: transparent;
+    }
+  
+  }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Anonymous Pro", sans-serif;
+  background-color: #ffffff;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;  
+}
+
+.typewriter-text {
+  overflow: hidden;
+  position: relative;
+  width: 15.8em;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 38px;
+  white-space: nowrap;
+
+  animation: typewriter 5s steps(44) infinite normal both,
+  blinkTextCursor 400ms steps(44) infinite normal;
+
+}
+
+/*
+
+  animation-name: typewriter;
+  animation-duration: 4s;
+  animation-timing-function: steps(44);
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+*/
+
+
+@keyframes typewriter {
+ 0% {
+    width: 0;
+ }
+ 50% {
+     width: 15.8em;
+ }
+  /* from {
+    width: 0;
+  }
+
+  to {
+    width: 15.84em;
+  } */
+}
+
+@keyframes blinkTextCursor {
+
+  from {
+    border-right-color: rgb(0, 0, 0);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+
+}
+    </style>
+        <div class="main-container">
+            <div class="typewriter-text">
+              <p class="font"> We Are a Web Service Business</p>
+            </div>
+          </div>
+</body>
+</html>
