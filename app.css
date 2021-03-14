@@ -34,12 +34,12 @@
     overflow: hidden;
     position: relative;
     font-family: "Anonymous Pro", sans-serif;
-    width: 15.8em;
+    width: 1em;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     font-size: 38px;
     white-space: nowrap;
   
-    animation: typewriter 5s steps(44) infinite normal both,
+    animation: typewriter 4s steps(44) infinite normal both,
     blinkTextCursor 400ms steps(44) infinite normal;
   
   }
@@ -87,3 +87,4 @@
     }
   
   }
+
